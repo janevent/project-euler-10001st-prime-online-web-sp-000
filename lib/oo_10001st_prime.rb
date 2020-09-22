@@ -4,4 +4,7 @@ class Prime
   def initialize(element)
     @element = element
   end
+  
+  def number 
+  end
 end
