@@ -12,8 +12,8 @@ class Prime
     i = 4
     until primes.length == self.element 
       primes << i if primes.all? {|n| i % n > 0 }
-    
       i+=1
-        end
+    end
+    primes.last
   end
 end
