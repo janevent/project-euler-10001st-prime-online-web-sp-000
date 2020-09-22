@@ -13,6 +13,7 @@ class Prime
     until primes.length == self.element 
       primes << i if primes.all? {|n| i % n > 0 }
     
-    i+=1
+      i+=1
+        end
   end
 end
